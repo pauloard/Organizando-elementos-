@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-roboto);
+}
+
+body {
+    width: 100%;
+    height: 114vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    width: 400px;
+}
+
+.form .top-inputs {
+    padding: 10px;
+    margin: 16px 10px;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.form p {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0;
+    width: 90%;
+}
+
+.form .perfil-usuario-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    align-items: center;
+}
+
+.form .intereses-container {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+
+.form .intereses-container div {
+    padding-bottom: 10px;
+}
+
+.form .intereses-container div input{
+    margin: 0 10px;
+}
+
+.form .imagen-perfil {
+    width: 90%;
+    padding: 20px 0;
+}
+
+.form .password-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form .password-container input {
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form .botones-enviar-reset {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.form .botones-enviar-reset input {
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
